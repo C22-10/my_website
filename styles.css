@@ -242,30 +242,3 @@ progress::-ms-fill {
 
         window.location.href = newPage;
     }
-.avatar h4 {
-    color: #c1c0b4;
-    font-family: Graphik, sans-serif;
-    text-shadow: 0 0 80px #17181d;
-    margin-top: 40px;
-    font-size: 40px;
-    margin-left: 180px; 
-    animation: textAnimation 2s infinite;
-}
-h4 {
-    color: #c1c0b4;
-    font-family: Graphik, sans-serif;
-    text-shadow: 0 0 80px #17181d;
-    margin-top: 20px;
-    font-size: 19px;
-}
-@keyframes textAnimation {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-5px); 
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
